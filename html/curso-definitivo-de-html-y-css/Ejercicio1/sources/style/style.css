@@ -1,0 +1,40 @@
+.title{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+
+.main-nav{
+    list-style: none;
+    background-color: cadetblue;
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.main-nav__item a:hover{
+    color: blue;
+}
+.main-nav__item a:active{
+    color: red;
+}
+.main-nav__item a::after{
+    content: " | ";
+}
+
+
+
+
+.figure-banana, .figure-apple, .figure-pear {
+    padding: 5px;
+}
+.img-banana, .img-apple, .img-pear{
+    width: 200px;
+    height: 200px;
+}
+
