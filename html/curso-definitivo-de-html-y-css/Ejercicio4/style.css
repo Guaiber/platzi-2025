@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 100vw;
+    height: 10vh;
+    
+}
+.container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.container div{
+   border: 0.2rem black solid;
+   border-radius: 2rem;
+   box-shadow: 0 0 3rem 0;
+}
+.container-1{
+    background-color: aqua;
+    width: 80vw;
+    height: 15vh;
+}
+.container-2{
+    background-color: aquamarine;
+    width: 80vw;
+    height: 15vh;
+}
+.container-3{
+    background-color: bisque;
+    width: 80vw;
+    height: 15vh;
+}
+.container-4{
+    background-color: blue;
+    width: 80vw;
+    height: 15vh;
+}

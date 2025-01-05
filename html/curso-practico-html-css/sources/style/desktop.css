@@ -1,0 +1,55 @@
+/* nav google*/
+.header-nav-ul-item1 a{
+    font-size: 1.4rem;
+    }
+    .header-nav-ul-item2 a{
+    font-size: 1.4rem;
+    }
+
+
+    /* main*/
+    .main-div-section2{
+    height: 4vh;
+    max-width: 60rem;
+    }
+    .main-form-input-section2{
+    height: 3.5vh;
+    max-width: 51rem;
+    }
+    .main-picture1-section2{
+    left:1vw;
+    }
+
+    /* button google*/
+    .main-input1-section3{
+    font-size: 1.4rem;
+    margin-right: 0.4rem;
+    }
+    .main-input2-section3{
+    font-size: 1.4rem;
+    margin-left: 0.4rem;
+    }
+
+
+    /* offered google*/
+    .main-section4 p{
+    font-size: 1.4rem; 
+    }
+
+
+    /* footer google*/
+    .footer-div1 p{
+    font-size: 1rem;
+    }
+    .footer-div2-ul1{
+    font-size: 1rem;
+    }
+    .footer-div2-ul1 li{    
+    padding: 0 0.5rem;
+    }
+    .footer-div2-ul2{
+    font-size: 1rem;
+    }
+    .footer-div2-ul2 li{    
+    padding: 0 0.5rem;
+    }
