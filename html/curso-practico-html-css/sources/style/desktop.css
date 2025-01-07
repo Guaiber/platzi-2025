@@ -5,6 +5,12 @@
     .header-nav-ul-item2 a{
     font-size: 1.4rem;
     }
+    .header-nav-ul-item3{
+    cursor: pointer;
+    }
+    .header-nav-ul-item4{
+    cursor: pointer;
+    }
 
 
     /* main*/
@@ -39,16 +45,20 @@
 
     /* footer google*/
     .footer-div1 p{
-    font-size: 1rem;
+    font-size: 1.4rem;
     }
     .footer-div2-ul1{
-    font-size: 1rem;
+    font-size: 1.4rem;
+    justify-content: start;
+    margin-left: 0.4rem;
     }
     .footer-div2-ul1 li{    
     padding: 0 0.5rem;
     }
     .footer-div2-ul2{
-    font-size: 1rem;
+    font-size: 1.4rem;
+    justify-content: end;
+    margin-right: 2rem;
     }
     .footer-div2-ul2 li{    
     padding: 0 0.5rem;

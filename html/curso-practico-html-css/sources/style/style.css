@@ -88,6 +88,10 @@ background-color:var(--color-third-background);
 border: 0 transparent solid;
 position: relative;
 left: 2rem;
+outline: none;
+color: var(--color-font);
+font-size: 1.4rem;
+padding-left: 1rem;
 }
 .main-picture1-section2{
 position: relative;
@@ -97,10 +101,12 @@ left:2vw;
 .main-picture2-section2{
 position: relative;
 right: 1vw;
+cursor: pointer;
 }
 .main-picture3-section2{
 position: relative;
 right: 1vw;
+cursor: pointer;
 }
 
 /* button google*/
@@ -113,6 +119,9 @@ justify-content: center;
 align-items: center;
 background-color: var(--color-primary-background);
 }
+.main-input1-section3:hover{
+background-color: var(--color-third-background);
+}
 .main-input1-section3{
 width: 20vw;
 max-width: 15rem;
@@ -124,6 +133,10 @@ border-radius: 0.5rem;
 background-color: #303134;
 color: var(--color-font);
 margin-right: 0.2rem;
+cursor: pointer;
+}
+.main-input2-section3:hover{
+background-color: var(--color-third-background);
 }
 .main-input2-section3{
 width: 24vw;
@@ -136,6 +149,7 @@ border-radius: 0.5rem;
 background-color: #303134;
 color: var(--color-font);
 margin-left: 0.2rem;
+cursor: pointer;
 }
 
 
@@ -155,6 +169,7 @@ color: var(--color-font);
 }
 span{
     color: #7acbff;
+    cursor: pointer;
 }
 
 
