@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia</title>
+    <link rel="stylesheet" href="./sources/style/style.css">
+    <link rel="stylesheet" href="./sources/style/table.css" media="screen and (min-width: 480px)">
+    <link rel="stylesheet" href="./sources/style/desktop.css" media="screen and (min-width: 750px)">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/linux-libertine-o');
+    </style>
+</head>
+<body>
+    
+     <main class="main__conteiner">
+
+
+
+        <header class="header__conteiner">
+            <div class="header-div_img__container">
+                <picture>
+                    <source srcset="./sources/img/Wikipedia-logo.png" media="screen and (min-width: 480px)">
+                    <img class="header-div_img" src="./sources/img/Wikipedia-logo-57x52.png" alt="Wikipedia">
+                </picture>
+            </div>
+            <div class="header-div_title">
+                <h1 class="h1_title"><span class="sptitle">W</span>IKIPEDI<span class="sptitle">A</span></h1>
+                <h2 class="h2_subtitle">The Free Encyclopedia</h2>
+            </div>
+
+        </header>
+
+        
+        <div class="main-div__container">
+            <form class="main-div-form__container" action="">
+                <input class="main-div-form-input__browser" type="text">
+                <div class="main-div-form_div">
+                    <label class="main-div-form-div-label" for="select">EN</label>
+                </div>
+                <select class="main-div-select__lenguage" name="" id="select">EN
+                    <option value="af" lang="af">Afrikaans</option>
+                    <option value="de" lang="de">Deutsch</option>
+                    <option value="es" lang="es">Español</option>
+                    <option value="pt" lang="pt">Português</option>
+                    <option value="ca" lang="ca">Català</option>
+                </select>
+                <button class="main-div-button__search">
+                    <i class="bi bi-search white"></i>
+                </button>
+            </form>
+        </div>
+
+
+        <nav class="main-nav__conteiner">
+
+            <div class="main-nav-div__conteiner order1">
+                <strong class="main-nav-div-strong__title"><a href="//en.wikipedia.org/" class="a_strong">English</a></strong>
+                <small class="main-nav-div-small__subtitle">6,935,000+ </small>
+                <span class="spnav">articles</span>
+            </div>
+
+         <div class="main-nav-div__conteiner order2">
+                <strong class="main-nav-div-strong__title"><a href="//es.wikipedia.org/" class="a_strong">Español</a></strong>
+                <small class="main-nav-div-small__subtitle">2.000.000</small>
+                <span class="spnav">artículos</span>
+            </div>
+
+            <div class="main-nav-div__conteiner order3">
+                <strong class="main-nav-div-strong__title"><a href="//ja.wikipedia.org/" class="a_strong">日本語</a></strong>
+                <small class="main-nav-div-small__subtitle">1,443,000+ </small>
+                <span class="spnav">記事</span>
+            </div>
+
+            <div class="main-nav-div__conteiner order4">
+                <strong class="main-nav-div-strong__title"><a href="//ru.wikipedia.org/" class="a_strong">Русский</a></strong>
+                <small class="main-nav-div-small__subtitle">2 017 000+</small>
+                <span class="spnav">статей</span>
+            </div>
+            <div class="main-nav-div__conteiner order5">
+                <strong class="main-nav-div-strong__title"><a href="//de.wikipedia.org/" class="a_strong">Deutsch</a></strong>
+                <small class="main-nav-div-small__subtitle">2.975.000+</small>
+                <span class="spnav">Artikel</span>
+            </div>
+
+            <div class="main-nav-div__conteiner order6">
+                <strong class="main-nav-div-strong__title"><a href="//fr.wikipedia.org/" class="a_strong">Français</a></strong>
+                <small class="main-nav-div-small__subtitle">2 657 000+</small>
+                <span class="spnav">articles</span>
+            </div>
+
+            <div class="main-nav-div__conteiner order7">
+                <strong class="main-nav-div-strong__title"><a href="//it.wikipedia.org/" class="a_strong">Italiano</a></strong>
+                <small class="main-nav-div-small__subtitle">1.898.000+</small>
+                <span class="spnav">voci</span>
+            </div>
+
+            <div class="main-nav-div__conteiner order8">
+                <strong class="main-nav-div-strong__title"><a href="//zh.wikipedia.org/" class="a_strong">中文</a></strong>
+                <small class="main-nav-div-small__subtitle">1,457,000+</small>
+                <span class="spnav">条目 / 條目</span>
+            </div>
+            <div class="main-nav-div__conteiner order9">
+                <strong class="main-nav-div-strong__title"><a href="//fa.wikipedia.org/" class="a_strong">فارسی</a></strong>
+                <small class="main-nav-div-small__subtitle">۱٬۰۲۴٬۰۰۰+ </small>
+                <span class="spnav">مقاله</span>
+            </div>
+            <div class="main-nav-div__conteiner order10">
+                <strong class="main-nav-div-strong__title"><a href="//pl.wikipedia.org/" class="a_strong">Polski</a></strong>
+                <small class="main-nav-div-small__subtitle">1 642 000+</small>
+                <span class="spnav">haseł</span>
+            </div>
+            <div class="main-nav-div__conteiner order11">
+
+            </div>
+
+            <div class="main-nav-div__conteiner order12">
+            </div>
+
+        </nav>
+
+        <div class="main-div_button__conteiner">
+            <button class="main-div-button__search-lenguage">
+             <i class="bi bi-translate translate"></i>
+                <span class="btspan">Read Wikipedia in your language</span>
+                <i class="bi bi-chevron-down arrow"></i>
+            </button>
+        </div>
+
+   
+
+    </main>
+
+    <footer class="footer__conteiner">
+
+        <section class="footer_section1 orde1">
+
+            <div class="div_section1__container">
+                <div class="div-section1-picture__conteiner">
+                    <picture class="div-section1__picture">
+                        <source>
+                        <img class="wikimedia-logo" src="./sources/icon/64px-Wikimedia-logo_black.svg.png" alt="Wikimedia">
+                    </picture>
+                </div>
+                <div class="div-section1__div">
+                    <p class="div-section1__p">Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.
+                        <a class="atext">You can support our work with a donation.</a></p>
+                </div>
+            </div>  
+
+        </section>
+
+        <section class="footer_section3 orde2">
+
+            <div class="div-container_download">
+                <picture>
+                    <source>
+                    <img src="./sources/icon/27px-W.png" alt="">
+                </picture>
+                <span class="spatex"><a class="adownloadntex" href="">Download Wikipedia for Android or iOS</a></span>
+            </div>
+
+            <div class="div-container_parrf">
+                <p>
+                    Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.</p>
+            </div>
+
+            <div class="Android">
+
+                <ul class="ul_item_list">
+
+                    <li class="item1">
+                        <a href="https://play.google.com/store/apps/details?id=org.wikipedia&referrer=utm_source%3Dportal%26utm_medium%3Dbutton%26anid%3Dadmob">
+                            <picture>
+                                <img src="./sources/img/android_150x150.pngcvs.png" alt=" ">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="item2">
+                        <a href="https://apps.apple.com/us/app/wikipedia/id324715238">
+                            <picture>
+                                <img  src="./sources/img/apple_127x51.png" alt="">
+                            </picture>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <section class="footer_section2 orde3">
+
+
+            <div class="div-section2-picture__conteiner">
+                <div>
+                    <picture>
+                        <source>
+                        <img src="./sources/icon/64px-Wikicommons2.svg.png" alt="">
+                    </picture>
+                </div>
+                <div>
+                    <div><strong class="footer-strong"><a class="a_footer_strong" href="https://commons.m.wikimedia.org/wiki/Main_Page">Commons</a></strong></div>
+                    <div><small class="footer-small">Free media collection</small></div>
+                </div>
+            </div>
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container"> 
+                            <source>
+                            <img src="./sources/icon/32px-Wikivoyage-logo.svg.png" alt="Wikivoyage">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="https://www.wikivoyage.org/">Wikivoyage</a></strong></div>
+                        <div><small class="footer-small">Free Travel Guide</small></div>
+                    </div>
+                </div>
+
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container">
+                            <source>
+                            <img src="./sources/icon/Wiktsister-32.png" alt="">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="//www.wiktionary.org/">Wiktionary</a></strong></div>
+                        <div><small class="footer-small">Free dictionary</small></div>
+                    </div>
+                </div>
+
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container">
+                            <source>
+                            <img src="./sources/icon/32px-Wikibooks-logo.svg.png" alt="">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="https://www.wikibooks.org/">Wikibooks</a></strong></div>
+                        <div><small class="footer-small">Free textbooks</small></div>
+                    </div>
+                </div>
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container">
+                            <source>
+                            <img src="./sources/icon/Wikinews-32px.png" alt="">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="//www.wikinews.org/">Wikinews</a></strong></div>
+                        <div><small class="footer-small">Free news source</small></div>
+                    </div>
+                </div>
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container">
+                            <source>
+                            <img src="./sources/icon/32px-Wikidata-logo.png" alt="">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="//www.wikidata.org/">Wikidata</a></strong></div>
+                        <div><small class="footer-small">Free knowledge base</small></div>
+                    </div>
+                </div>
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container">
+                            <source>
+                            <img src="./sources/icon/32px-Wikiversity_logo_2017.svg.png" alt="">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="//www.wikiversity.org/">Wikiversity</a></strong></div>
+                        <div><small class="footer-small">Free learning resources</small></div>
+                    </div>
+                </div>
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container">
+                            <source>
+                            <img src="./sources/icon/32px-Wikiquote-logo.png" alt="">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="//www.wikiquote.org/">Wikiquote</a></strong></div>
+                        <div><small class="footer-small">Free quote compendium</small></div>
+                    </div>
+                </div>
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container">
+                            <source>
+                            <img src="./sources/icon/32px-MediaWiki-2020-large-icon.svg.png" alt="">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="//www.mediawiki.org/">MediaWiki</a></strong></div>
+                        <div><small class="footer-small">Free &amp; open wiki software</small></div>
+                    </div>
+                </div>
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container">
+                            <source>
+                            <img width="32px;" height="37px;" src="./sources/icon/32px-Wikisource-newberg.png" alt="">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="//www.wikisource.org/">Wikisource</a></strong></div>
+                        <div><small class="footer-small">Free content library</small></div>
+                    </div>
+                </div>
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container">
+                            <source>
+                            <img width="32px;" height="37px;" src="./sources/icon/64px-Wikispecies_Administrator.png" alt="">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="//species.wikimedia.org/">Wikispecies</a></strong></div>
+                        <div><small class="footer-small">Free species directory</small></div>
+                    </div>
+                </div>
+
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container">
+                            <source>
+                            <img src="./sources/icon/32px-Wikifunctions-logo.svg.png" alt="">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="//www.wikifunctions.org/">Wikifunctions</a></strong></div>
+                        <div><small class="footer-small">Free function library</small></div>
+                    </div>
+                </div>
+
+                <div class="div-section2-picture__conteiner">
+                    <div>
+                        <picture class="picture-footer_container">
+                            <source>
+                            <img width="32px;" height="32px;" src="./sources/icon/60px-Meta_Oversighter.png" alt="">
+                        </picture>
+                    </div>
+                    <div>
+                        <div><strong class="footer-strong"><a class="a_footer_strong" href="//meta.wikimedia.org/">Meta-Wiki</a></strong></div>
+                        <div><small class="footer-small">Community coordination &amp; documentation</small></div>
+                    </div>
+                </div>
+
+        
+        </section>
+
+
+        
+
+
+
+
+        <section class="footer__section4 orde4">
+
+           
+            <p class="p_section4">This page is available under the<a class="a_section4" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</a><a class="a_section4" href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use">• Terms of Use</a><a class="a_section4" href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">• Privacy Policy</a></p>
+               
+                
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    </footer>
+
+</body>
+</html>

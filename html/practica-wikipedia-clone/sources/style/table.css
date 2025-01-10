@@ -1,0 +1,73 @@
+.footer_section2{  
+grid-template-columns: 1fr 1fr 1fr; 
+}
+.div-section2-picture__conteiner{
+max-width: 17rem;
+}
+/* Order */
+.header-div_img__container
+{
+order: 0;
+left: 8rem;
+top: 30rem;
+}
+.header-div_title{
+order: 1;
+position:relative;
+right: 2rem;
+top: 3rem;
+}
+.main-div__container{
+order: 2;
+}
+.order1{
+order: 3;
+position: relative;
+left: 5rem;
+top: 1.5rem;
+}
+.order2{
+order: 5;
+position: relative;
+right: 5rem;
+top: 1.5rem;
+}
+.order3{
+order: 6;
+}
+.order4{
+order: 8;
+}
+.order5{
+order: 9;
+}
+.order6{
+order: 11;
+}
+.order7{
+order: 13;
+}
+.order8{
+order: 4;
+}
+.order9{
+order: 12;
+position: relative;
+left:5rem;
+bottom:1.5rem;
+}
+.order10{
+order: 14;
+position: relative;
+right: 5rem;
+bottom:1.5rem;
+}
+.order11{
+order: 10;
+}
+.order12{
+order: 7;
+}
+.main-div_button__conteiner{
+order: 15;  
+}
