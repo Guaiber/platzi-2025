@@ -1,10 +1,3 @@
-/*   
-Posicionamiento --> static, absolute, relative, fixed
-Modelo de caja (Box model) --> margin, border, padding, content
-Tipografía --> tipos, tamaños de fuente, etc
-Estilos visuales --> box-shadow, border-radius, gradient, etc
-Otros --> reglas CSS y más
-*/
 :root{
 
     /* Colores */
@@ -28,3 +21,337 @@ html{
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
 }
+
+/* header*/
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32rem;
+    min-width:32rem;
+    height: 33.4rem;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+header img{
+    width: 15.1rem;
+    height: 2.4rem;
+    margin-top: 3.9rem;
+}
+.header--title--container{
+    margin-top: 3.3rem;
+}
+.header--title--container h1{
+    width: 28.8rem;
+    height: 7.8rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.header--title--container p{
+    width: 28.8rem;
+    height: 3.6rem;
+    margin-top: 2.4rem ;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+}
+header a{
+    position: absolute;
+    top: 30.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.9rem;
+    height: 4.8rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: var(--warm-black);
+    background-color: var(--off-white);
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    text-decoration: none;
+}
+header .header__a--icon{
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('../assets/icon/mdi_keyboard_arrow_down.png');
+}
+
+/* main section1*/
+.main__section--one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32rem;
+    min-width: 32rem;
+    height: 72rem;   
+    background-color: var(--just-white);
+}
+.main__section--one picture{
+    display: block;
+    width: 19.2rem;
+    height: 19.2rem;
+    background-image: url('../assets/img/Bitcoin.svg');
+    margin-bottom: 4.4rem;
+}
+.main__section--one article{
+    display: block;
+    width: 28.8rem;
+    height: 13rem;
+    text-align: center;
+}
+.section__article--paragraph :nth-child(1){
+    width: 28.8rem;
+    height: 5.2rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+    margin-bottom: 2.4rem;
+
+}
+.section__article--paragraph :nth-child(2){
+    width: 28.8rem;
+    height: 5.4rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: var(--grey);
+}
+.section__div--exchange{
+    width: 23.5rem;
+    height: 19.4rem;
+    display: flex;
+    flex-direction: column;
+}
+.section__div--exchange span{
+    display: inline-block;
+    width: 8.1rem;
+    height: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+    margin-top: 4.8rem;
+}
+.section__div--table{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width:19.7rem;
+    height:15.9rem;
+    margin-top: 1.2rem;
+}
+strong{
+    width: 7.7rem;
+    height: 1.9rem;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: -2%;
+    color: #B5B0AC;
+
+}
+small{
+    width: 4.9rem;
+    height: 1.7rem;
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: -2%;
+    color:#757575;
+    margin-left: 1.2rem;
+}
+.table__i--arrow--down{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0 1.35rem;
+    background-image: url(../assets/icon/trending-down\ 1.png);
+
+}
+.table__i--arrow--up{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0 1.35rem;
+    background-image: url(../assets/icon/trending-up\ 1.png);
+}
+.section__div--exchange .table__i--arrow--mdi{
+    position: absolute;
+    left: 24rem;
+    top: 88.9rem;
+    width: 0.8rem;
+    height: 1.2rem;
+    margin-left:2.2rem;
+    background-image: url(../assets/icon/arrow-right.png);
+    color: var(--warm-black);
+}
+.value__div--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.5rem;
+    height: 3.1rem;
+    margin-top: 1.6rem;
+    border: none;
+    background-color: var(--soft-orange);
+    border-radius: 0.4rem;
+}
+.value__div--container p{
+    width: 9.9rem;
+    height: 1.5rem;
+    font-family:"Inter",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: var(--warm-black);
+}
+.value__div--container span{
+    width: 9.9rem;
+    height: 1.5rem;
+    font-family:"Inter",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    color: var(--warm-black);
+}
+
+/* main section 2*/
+.main__section--two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32rem;
+    height: 91rem ;
+    background-color: var(--warm-black);
+}
+.section2__div--main--title{
+    width: 28.8rem;
+    height: 11.2rem;
+    margin-top: 6.4rem;
+    text-align: center;
+    margin-bottom:3.2rem;  
+}
+.section2__div--main--title p:nth-child(1){
+    width: 28.8rem;
+    height: 5.2rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.section2__div--main--title p:nth-child(2){
+    width: 28.8rem;
+    height: 5.2rem;
+    margin-top: 2.4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.section2__ul--container{
+    display: inline-block;
+    width: 28.8rem;
+    height: 65.6rem;
+    list-style-type: none;
+}
+.section2__ul--container li{
+    display: inline-block;
+    width: 28.8rem;
+    height: 15.2rem;
+    margin-bottom: 1.6rem;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.16);  
+}
+.section2__li--container p:nth-child(2){
+    width: 21.9rem;
+    height: 1.8rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+}
+.section2__li--container p:nth-child(3){
+    width: 25.2rem;
+    height: 5.4rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: rgba(128, 128, 128, 1);
+    margin: 1rem 2rem 2.2rem 1.6rem;
+}
+.section2__li--container .section2__i--item1{
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left:1.6rem;
+    margin-top:1.4rem;
+    background-image: url(../assets/icon/clock\ 1.png);
+}
+.section2__li--container .section2__i--item2{
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left:1.6rem;
+    margin-top:1.4rem;
+    background-image: url(../assets/icon/eye\ 1.png);
+}
+.section2__li--container .section2__i--item3{
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left:1.6rem;
+    margin-top:1.4rem;
+    background-image: url(../assets/icon/dollar-sign\ 1.png);
+}
+.section2__li--container .section2__i--item4{
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left:1.6rem;
+    margin-top:1.4rem;
+    background-image: url(../assets/icon/check-circle\ 1.png);
+}
+
+/*Main Section three */
+
+.main__section--three{
+    width: 32rem;
+    height: 38.7rem;
+}
+.main__section--three figure{
+    width: 32rem;
+    height: 38.7rem;
+    background-image: url(../assets/img/bitcoinbaby\ 1.svg);
+}
+.main__section--three p{
+position: absolute;
+width: 28.8rem;
+height: 2.6rem;
+top: 196rem;
+margin-top: 6.4rem;
+margin-left: 1.6rem;
+margin-right: 1.6rem;
+font-weight: 700;
+font-size: 2.4rem;
+line-height: 2.6rem;
+color: var(--just-white);
+background-color: transparent;
+text-align: center;
+}
+
+/*Main Section four */
