@@ -339,19 +339,219 @@ small{
     background-image: url(../assets/img/bitcoinbaby\ 1.svg);
 }
 .main__section--three p{
-position: absolute;
-width: 28.8rem;
-height: 2.6rem;
-top: 196rem;
-margin-top: 6.4rem;
-margin-left: 1.6rem;
-margin-right: 1.6rem;
-font-weight: 700;
-font-size: 2.4rem;
-line-height: 2.6rem;
-color: var(--just-white);
-background-color: transparent;
-text-align: center;
+    position: absolute;
+    width: 28.8rem;
+    height: 2.6rem;
+    top: 196rem;
+    margin-top: 6.4rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    background-color: transparent;
+    text-align: center;
 }
 
 /*Main Section four */
+
+.Main__Section--four{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 32rem;
+    height: 49.1rem;
+}
+.div--container--price{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 32rem;
+    height: 40.9rem;
+    text-align: center;
+}
+.p--title-price{
+   width: 28.8rem; 
+   height: 5.2rem;
+   margin-top:8.2rem;
+   margin-bottom:2.4rem;
+   font-weight: 700;
+   font-size: 2.4rem;
+   line-height: 2.6rem;
+   color: var(--warm-black);
+}
+.p--subtitle-price{
+    width: 28.8rem; 
+    height: 3.6rem;
+    margin-bottom:1.9rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color:rgba(117, 117, 117, 1);
+}
+.p-recomendado{
+    position: relative;
+    top: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10.1rem;
+    height: 3.1rem;
+    font-family:"Inter",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+    text-decoration: none;
+    border-radius: 0.7rem;
+}
+.div--price{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 19rem;
+    height: 24.7rem;
+    background-color: var(--just-white);
+    box-shadow: 0px 10px 10px 0px rgba(89, 73, 30, 0.25);
+}
+.p--title-price--per--year{
+    width: 7.3rem;
+    height: 1.8rem;
+    margin-top: 3.1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:  rgba(0, 0, 0, 1);
+}
+.p--price{
+    width: 7.8rem;
+    height: 6.3rem;
+    margin-bottom:0.9rem;
+    font-family:"Inter",sans-serif;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 6.2rem;
+    letter-spacing: -8%;
+}
+.p--price sup{
+    width: 0.8rem;
+    height: 1.5rem;
+    font-family:"Inter",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+.p--saving{
+    width: 15.8rem;
+    height: 3rem;
+    margin-bottom: 1.6rem;
+    font-family:"Inter",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: rgba(117, 117, 117, 1);
+}
+.select--plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.1rem;
+    height: 4.8rem;
+    margin-bottom: 2.4rem;
+    border: 2px solid rgba(247, 147, 26, 1);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: var(--warm-black);
+    border-radius: 0.4rem;
+}
+.select--plan i{
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 0.8rem;
+    background-image: url(../assets/icon/arrow-right\ 1.png);
+}
+
+/*Main Section five */
+
+.Main__Section--five{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 32rem;
+    height: 36.8rem;
+}
+.p--frecuently--asked--title{
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    width: 28.8rem;
+    height: 5.2rem;
+    margin-top: 6.4rem;
+    margin-bottom:3.2rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.div__p--container--asked{
+    display: flex;
+    align-items: center;
+    width: 28rem;
+    height: auto;
+}
+.p--frecuently--asked{
+    width: 23.9rem;
+    height: auto;
+    margin-left: 1.6rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgba(117, 117, 117, 1);
+}
+.icon-arrow-asked{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 1.7rem;
+    background-image: url(../assets/icon/mdi_keyboard_arrow_down.png);
+}
+
+/* footer */
+
+footer{
+    width: 32rem;
+    height: 15rem;
+}
+.content-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    width: 32rem;
+    height: 12rem;
+    background-color: var(--bitcoin-orange);
+}
+.a__content-footer{
+    width: auto;
+    height: 1.8rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    text-decoration: none;
+
+}
+.content-footer ul{
+    margin-bottom: 1.5rem;
+    list-style-type: none;
+}
+.content-footer picture{
+    margin-bottom: 1.5rem;
+}
