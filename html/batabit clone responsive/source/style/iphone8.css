@@ -1,0 +1,79 @@
+
+/* header */
+
+
+
+
+.main__section--one picture{  
+
+    width: 19.5rem;
+    height: 19.5rem;
+}
+
+.section__div--exchange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section__div--exchange span{
+    margin-right:11.5rem;
+}
+.section__div--exchange .table__i--arrow--mdi{
+    margin-left:10rem;
+}
+
+/* main section 1*/
+.section__article--paragraph :nth-child(1){
+
+    min-width: 34.1rem;
+
+}
+.section__article--paragraph :nth-child(2){
+   
+    min-width:34.2rem;
+ 
+}
+
+/* main section 2*/
+
+.section2__li--container p:nth-child(3){
+    min-width: 30.7rem;
+}
+
+
+/* main section 3*/
+.main__section--three picture{
+    min-width: 37.5rem;
+}
+.main__section--three{
+    min-width: 37.5rem;
+}
+
+
+
+/*Main Section four */
+.p--title-price{
+    
+    min-width:  34.3rem; 
+ 
+ }
+ .p--subtitle-price{
+     
+     width: 34.2rem; 
+
+ }
+
+ /*Main Section five */
+ .p--frecuently--asked--title{
+    min-width: 34.2rem;
+ 
+}
+.div__p--container--asked{
+    min-width: 34.2rem;
+}
+.p--frecuently--asked{
+    min-width: 28.5rem;
+
+}
+

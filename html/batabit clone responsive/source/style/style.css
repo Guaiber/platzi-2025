@@ -29,7 +29,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 32rem;
+    width: 100vw;
     min-width:32rem;
     height: 33.4rem;
     text-align: center;
@@ -44,7 +44,8 @@ header img{
     margin-top: 3.3rem;
 }
 .header--title--container h1{
-    width: 28.8rem;
+    width: 90vw;
+    min-width: 28.8rem;
     height: 7.8rem;
     font-size: 2.4rem;
     font-weight: 700;
@@ -52,7 +53,8 @@ header img{
     color: var(--just-white);
 }
 .header--title--container p{
-    width: 28.8rem;
+    width: 90vw;
+    min-width: 28.8rem;
     height: 3.6rem;
     margin-top: 2.4rem ;
     font-size: 1.4rem;
@@ -91,7 +93,7 @@ header .header__a--icon{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 32rem;
+    width: 100vw;
     min-width: 32rem;
     height: 72rem;   
     background-color: var(--just-white);
@@ -104,13 +106,18 @@ header .header__a--icon{
     margin-bottom: 4.4rem;
 }
 .main__section--one article{
-    display: block;
-    width: 28.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    min-width: 28.8rem;
     height: 13rem;
     text-align: center;
 }
 .section__article--paragraph :nth-child(1){
-    width: 28.8rem;
+    width: 90vw;
+    min-width: 28.8rem;
     height: 5.2rem;
     font-weight: 700;
     font-size: 2.4rem;
@@ -120,7 +127,8 @@ header .header__a--icon{
 
 }
 .section__article--paragraph :nth-child(2){
-    width: 28.8rem;
+    width: 90vw;
+    min-width: 28.8rem;
     height: 5.4rem;
     font-weight: 500;
     font-size: 1.4rem;
@@ -234,19 +242,23 @@ small{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 32rem;
+    width: 100vw;
+    min-width: 32rem;
     height: 91rem ;
     background-color: var(--warm-black);
 }
 .section2__div--main--title{
-    width: 28.8rem;
+
+    width: 90vw;
+    min-width: 28.8rem;
     height: 11.2rem;
     margin-top: 6.4rem;
     text-align: center;
     margin-bottom:3.2rem;  
 }
 .section2__div--main--title p:nth-child(1){
-    width: 28.8rem;
+    width: 90vw;
+    min-width: 28.8rem;
     height: 5.2rem;
     font-size: 2.4rem;
     font-weight: 700;
@@ -254,7 +266,8 @@ small{
     color: var(--just-white);
 }
 .section2__div--main--title p:nth-child(2){
-    width: 28.8rem;
+    width: 90vw;
+    min-width:  28.8rem;
     height: 5.2rem;
     margin-top: 2.4rem;
     font-size: 1.4rem;
@@ -264,13 +277,15 @@ small{
 }
 .section2__ul--container{
     display: inline-block;
-    width: 28.8rem;
+    width: 90vw;
+    min-width: 28.8rem;
     height: 65.6rem;
     list-style-type: none;
 }
 .section2__ul--container li{
     display: inline-block;
-    width: 28.8rem;
+    width: 90vw;
+    min-width: 28.8rem;
     height: 15.2rem;
     margin-bottom: 1.6rem;
     box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.16);  
@@ -330,17 +345,24 @@ small{
 /*Main Section three */
 
 .main__section--three{
-    width: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-width: 32rem;
     height: 38.7rem;
 }
 .main__section--three figure{
-    width: 32rem;
+    width: 100vw;
+    min-width: 32rem;
     height: 38.7rem;
     background-image: url(../assets/img/bitcoinbaby\ 1.svg);
+    background-size: cover;
 }
 .main__section--three p{
     position: absolute;
-    width: 28.8rem;
+    width: 90vw;
+    min-width: 28.8rem;
     height: 2.6rem;
     top: 196rem;
     margin-top: 6.4rem;
@@ -360,7 +382,8 @@ small{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 32rem;
+    width: 100vw;
+    min-width: 32rem;
     height: 49.1rem;
 }
 .div--container--price{
@@ -368,11 +391,13 @@ small{
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 32rem;
+    width: 100vw;
+    min-width: 32rem;
     height: 40.9rem;
     text-align: center;
 }
 .p--title-price{
+    
    width: 28.8rem; 
    height: 5.2rem;
    margin-top:8.2rem;
@@ -383,6 +408,7 @@ small{
    color: var(--warm-black);
 }
 .p--subtitle-price{
+    
     width: 28.8rem; 
     height: 3.6rem;
     margin-bottom:1.9rem;
@@ -485,14 +511,16 @@ small{
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 32rem;
+    width: 100vw;
+    min-width: 32rem;
     height: 36.8rem;
 }
 .p--frecuently--asked--title{
     display: inline-block;
     align-self: center;
     text-align: center;
-    width: 28.8rem;
+    width: 90vw;
+    min-width: 28.8rem;
     height: 5.2rem;
     margin-top: 6.4rem;
     margin-bottom:3.2rem;
@@ -503,8 +531,10 @@ small{
 }
 .div__p--container--asked{
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 28rem;
+    width: 90vw;
+    min-width: 28rem;
     height: auto;
 }
 .p--frecuently--asked{
@@ -527,14 +557,16 @@ small{
 /* footer */
 
 footer{
-    width: 32rem;
+    width: 100vw;
+    min-width: 32rem;
     height: 15rem;
 }
 .content-footer{
     display: flex;
     justify-content: space-evenly;
     align-items: end;
-    width: 32rem;
+    width: 100vw;
+    min-width: 32rem;
     height: 12rem;
     background-color: var(--bitcoin-orange);
 }

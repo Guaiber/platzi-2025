@@ -1,0 +1,19 @@
+/* header */
+
+.header--title--container h1{
+   
+    min-width: 38.2rem;
+
+}
+.header--title--container p{
+   
+    min-width: 38.2rem;
+
+}
+/* main section 3*/
+.main__section--three picture{
+    min-width: 41.4rem;
+}
+.main__section--three{
+    min-width: 41.4rem;
+}
