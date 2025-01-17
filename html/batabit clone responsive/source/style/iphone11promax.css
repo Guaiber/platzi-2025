@@ -10,6 +10,16 @@
     min-width: 38.2rem;
 
 }
+
+
+
+/* main section1*/
+.table__i--arrow--mdi{
+    left: 8rem;
+    top: 6.5rem;         
+}
+
+
 /* main section 3*/
 .main__section--three picture{
     min-width: 41.4rem;

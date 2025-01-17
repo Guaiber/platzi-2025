@@ -34,6 +34,11 @@
     min-width:34.2rem;
  
 }
+.table__i--arrow--mdi{
+    position: relative;
+    left: 8rem;
+    top: 6.5rem;
+}
 
 /* main section 2*/
 

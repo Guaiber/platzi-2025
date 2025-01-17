@@ -16,10 +16,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
 }
 html{
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
+   
+    
 }
 
 /* header*/
@@ -98,6 +101,9 @@ header .header__a--icon{
     height: 72rem;   
     background-color: var(--just-white);
 }
+.exchange--container--div--scroll{
+    display: flex;
+}
 .main__section--one picture{
     display: block;
     width: 19.2rem;
@@ -149,7 +155,7 @@ header .header__a--icon{
     font-weight: 700;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
-    margin-top: 4.8rem;
+    
 }
 .section__div--table{
     display: grid;
@@ -197,13 +203,12 @@ small{
     margin: 0 1.35rem;
     background-image: url(../assets/icon/trending-up\ 1.png);
 }
-.section__div--exchange .table__i--arrow--mdi{
-    position: absolute;
-    left: 24rem;
-    top: 88.9rem;
+.table__i--arrow--mdi{
+    position: relative;
+    left: 22rem;
+    top: 6.5rem;
     width: 0.8rem;
-    height: 1.2rem;
-    margin-left:2.2rem;
+    height: 2rem;
     background-image: url(../assets/icon/arrow-right.png);
     color: var(--warm-black);
 }
@@ -211,7 +216,7 @@ small{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 11.5rem;
+    width: 12rem;
     height: 3.1rem;
     margin-top: 1.6rem;
     border: none;
@@ -219,7 +224,7 @@ small{
     border-radius: 0.4rem;
 }
 .value__div--container p{
-    width: 9.9rem;
+    width: 6rem;
     height: 1.5rem;
     font-family:"Inter",sans-serif;
     font-size: 1.2rem;
@@ -228,7 +233,7 @@ small{
     color: var(--warm-black);
 }
 .value__div--container span{
-    width: 9.9rem;
+    width: 4rem;
     height: 1.5rem;
     font-family:"Inter",sans-serif;
     font-size: 1.2rem;
@@ -381,20 +386,34 @@ small{
 .Main__Section--four{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: start;
+    text-align: center;
     width: 100vw;
     min-width: 32rem;
     height: 49.1rem;
 }
 .div--container--price{
     display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: proximity;
+    width: 32rem;
+    height: 27.8rem;
+}
+.div--price{
+    position: relative;
+    scroll-snap-align: center;
+    display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 100vw;
-    min-width: 32rem;
-    height: 40.9rem;
-    text-align: center;
+    margin: 0 7.9rem;
+    width: 19rem;
+    height: 24.7rem;
+    background-color: var(--just-white);
+    box-shadow: 0px 10px 10px 0px rgba(89, 73, 30, 0.25);
 }
 .p--title-price{
     
@@ -418,8 +437,6 @@ small{
     color:rgba(117, 117, 117, 1);
 }
 .p-recomendado{
-    position: relative;
-    top: 0.9rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -433,16 +450,6 @@ small{
     background-color: var(--bitcoin-orange);
     text-decoration: none;
     border-radius: 0.7rem;
-}
-.div--price{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    width: 19rem;
-    height: 24.7rem;
-    background-color: var(--just-white);
-    box-shadow: 0px 10px 10px 0px rgba(89, 73, 30, 0.25);
 }
 .p--title-price--per--year{
     width: 7.3rem;
@@ -504,6 +511,37 @@ small{
     margin-left: 0.8rem;
     background-image: url(../assets/icon/arrow-right\ 1.png);
 }
+.arrow-section-four1{
+    position: relative;
+    bottom: 6rem;
+    left: 12rem;
+    display: inline-block;
+    width: 0.8rem;
+    height: 1.2rem;
+    background-image: url(../assets/icon/arrow-right.png);
+    color: var(--warm-black);
+}
+.arrow-section-four{
+    position: relative;
+    bottom: 4rem;
+    left: 12rem;
+    display: inline-block;
+    width: 0.8rem;
+    height: 1.2rem;
+    background-image: url(../assets/icon/arrow-right.png);
+    color: var(--warm-black);
+}
+.arrow-section-four-derecha{
+    position: relative;
+    right: 12.5rem;
+    bottom: 11.8rem;
+    display: inline-block;
+    width: 1.5rem;
+    height: 3rem;
+    background-image: url(../assets/icon/mdiderecha.png);
+    color: var(--warm-black);
+}
+
 
 /*Main Section five */
 
@@ -564,7 +602,7 @@ footer{
 .content-footer{
     display: flex;
     justify-content: space-evenly;
-    align-items: end;
+    align-items: center;
     width: 100vw;
     min-width: 32rem;
     height: 12rem;

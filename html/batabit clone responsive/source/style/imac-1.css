@@ -1,0 +1,109 @@
+/* header */
+
+header{
+    
+    height: 44rem;
+}
+
+header img{
+    width: 17.4rem;
+    height: 2.8rem;
+    margin-top: 11.2rem;
+}
+.header--title--container{
+    height: 16.4rem;
+    width: 63.2rem;
+    margin-top: 6rem;
+    margin-bottom: 7.1rem;
+}
+.header--title--container h1{
+    max-width: 63.2rem;
+}
+.header--title--container p{
+    max-width: 63.2rem;
+
+}
+
+
+/* main section 1*/
+.main__section--one{
+    width: 144rem;
+    height: 82.6rem;
+    margin: auto;
+}
+.main__section--one article{
+
+    width: 144rem;
+  
+}
+
+
+/* main section 2*/
+.main__section--two{
+    width: 144rem;
+}
+.section2__div--main--title{
+    width: 144rem;
+   
+}
+
+
+
+
+
+/* main section 3*/
+
+.main__section--three{
+    width: 144rem;
+
+}
+.main__section--three figure{
+    width: 144rem;
+    margin: auto;
+    
+}
+.main__section--three p{
+    width: 144rem;
+    margin: auto;
+}
+
+
+
+
+/* main section 4*/
+
+.Main__Section--four{
+
+    width: 144rem;
+   
+    
+}
+.div--container--price{
+    width: 144rem;
+   
+}
+
+
+
+
+/* main section 5*/
+
+.Main__Section--five{
+    width: 144rem;
+}
+
+
+
+/* footer */
+
+footer{
+    width: 100vw;
+    margin: auto;
+}
+.content-footer{
+
+    width: 100vw;
+    margin: auto;
+  
+}
+

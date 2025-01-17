@@ -1,0 +1,436 @@
+/* header */
+
+header{
+
+    height: 45.6rem;
+}
+
+header img{
+    max-width: 17.5rem;
+    height: 2.8rem;
+    margin-top: 10.3rem;
+}
+.header--title--container{
+    margin-top: 4.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header--title--container h1{
+    align-self: center;
+    max-width: 46.4rem;
+    height: 12.6rem;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.2rem;
+}
+.header--title--container p{
+    text-align: center;
+    max-width: 38.2rem;
+    height: 4.8rem;
+    margin-top: 3.2rem ;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    margin-bottom: 7.8rem;
+}
+header a{
+    top: 42.8rem;
+}
+
+
+
+
+
+
+
+/* main section 1*/
+.main__section--one{
+    height: 82.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.main__section--one picture{  
+    max-width: 19.5rem;
+    height: 19.5rem;
+}
+
+.main__section--one picture{
+
+    max-width: 19.5rem;
+    height: 19.5rem;
+    margin-top: 5.1rem;
+    margin-bottom: 0rem;
+}
+
+.section__article--paragraph{
+    display: block;
+    height: 15.6rem;
+    margin-top: 4rem;
+    margin-bottom: 4.8rem;
+    
+
+}
+
+.section__div--exchange{
+    margin-left: 10rem;
+    align-self: start;
+}
+
+.section__article--paragraph :nth-child(1){
+
+    width: 46.6rem;
+    height: 8.2rem;
+    font-size: 4.0rem;
+    line-height: 4.2rem;
+    margin-bottom: 2.4rem;
+
+}
+.section__article--paragraph :nth-child(2){
+   
+    width:46.6rem;
+    height: 7.2rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    
+ 
+}
+.section__div--exchange span{
+    margin-top: 0rem;
+}
+.value__div--container{
+margin-bottom: 8.2rem;
+margin-left: 11rem;
+align-self: start;
+
+}
+
+.table__i--arrow--mdi{
+
+    left: 7rem;
+    top: 9.2rem;
+    height: 1.4rem;
+    
+}
+
+
+
+
+
+/* main section 2*/
+
+
+.main__section--two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 83.4rem;
+    height: 64.4rem ;
+}
+.section2__div--main--title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 46.6rem;
+    height: 15.6rem;
+    margin-top: 6.4rem;
+    text-align: center;
+    margin-bottom:4.0rem;  
+}
+.section2__div--main--title p:nth-child(1){
+    max-width: 46.6rem;
+    height: 8.4rem;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.2rem;
+}
+.section2__div--main--title p:nth-child(2){
+  
+    max-width: 46.6rem;
+    height: 4.8rem;
+    margin-top: 2.4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+.section2__ul--container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    min-width: 83.4rem;
+    height: 38.4rem;
+    list-style-type: none;
+}
+.section2__ul--container li{
+    display: inline-block;
+    width: 90vw;
+    max-width: 34.5rem;
+    height: 15.2rem;
+    margin-bottom: 1.6rem;
+    margin-right: 1.6rem;
+    
+}
+
+
+/* main section 3*/
+
+.main__section--three{
+    min-width: 83.4rem;
+    height: 29.9rem;
+}
+.main__section--three figure{
+    
+    min-width: 83.4rem;
+    height: 29.9rem;
+    background-image: url(../assets/img/bitcoinbaby\ 2.png);
+
+}
+.main__section--three p{
+    min-width: 28.8rem;
+    height: 4.2rem;
+    top: 195rem;
+    margin-top: 10.3rem;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.2rem;
+    text-align: center;
+}
+
+
+
+/* main section 4*/
+
+.Main__Section--four{
+    width: 83.4rem;
+    height: 54.7rem;
+    margin: auto;
+}
+.div--container--price{
+    width: 83.4rem;
+    height: 46.7rem;
+}
+.div--price{
+    width: 22.3rem;
+    height: 24.7rem;
+    margin: 0 5rem;
+}
+
+.p--title-price{
+    
+   max-width: 46.6rem; 
+   height: 8.4rem;
+   margin-top:8rem;
+   margin-bottom:2.4rem;
+   font-size: 4.0rem;
+   line-height: 4.2rem;
+}
+.p--subtitle-price{
+    
+    max-width: 46.6rem;
+    height: 4.8rem;
+    margin-bottom:4.8rem;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    
+}
+.p-recomendado{
+    position: relative;
+    top: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10.1rem;
+    height: 3.1rem;
+    font-family:"Inter",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+    text-decoration: none;
+    border-radius: 0.7rem;
+}
+
+
+/* main section 5*/
+
+.Main__Section--five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 83.4rem;
+    height: 49.8rem;
+}
+.p--frecuently--asked--title{
+    max-width: 46.6rem;
+    height: 8.4rem;
+    margin-top: 8rem;
+    margin-bottom:4rem;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.2rem;
+}
+.div__p--container--asked{
+    max-width: 46.6rem;
+    height: auto;
+}
+.p--frecuently--asked{
+    width: 34.4rem;
+    height: auto;
+    margin-left: 1.6rem;
+    margin-bottom: 1.6rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+.icon-arrow-asked{
+ 
+    margin-left: 5.8rem;
+    
+}
+
+/* footer */
+
+footer{
+    width: 100vw;
+    min-width: 32rem;
+    height: 15rem;
+}
+.content-footer{
+    min-width: 83.4rem;
+    height: 27.1rem;
+}
+.a__content-footer{
+    width: auto;
+    height: 2.4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+.content-footer ul{
+    margin-bottom: 8.5rem;
+    list-style-type: none;
+}
+.li--content--footer{
+    margin-top: 1.6rem;
+}
+.content-footer picture{
+    margin-bottom: 8.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main section 3*/
+.main__section--three picture{
+    min-width: 37.5rem;
+}
+.main__section--three{
+    min-width: 37.5rem;
+}
+
+
+
+/*Main Section four */
+.p--title-price{
+    
+    min-width:  34.3rem; 
+ 
+ }
+ .p--subtitle-price{
+     
+     width: 34.2rem; 
+
+ }
+
+ /*Main Section five */
+ .p--frecuently--asked--title{
+    min-width: 34.2rem;
+ 
+}
+.div__p--container--asked{
+    min-width: 34.2rem;
+}
+.p--frecuently--asked{
+    min-width: 28.5rem;
+
+}
+

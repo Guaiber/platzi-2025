@@ -1,0 +1,129 @@
+/* header */
+
+header{
+ 
+    height: 44rem;
+}
+
+header img{
+    width: 17.4rem;
+    height: 2.8rem;
+    margin-top: 8rem;
+}
+.header--title--container{
+    height: 20.6rem;
+    width: 48.8rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.header--title--container h1{
+    max-width: 48.8rem;
+    height: 12.6rem;
+}
+.header--title--container p{
+    max-width: 48.8rem;
+    height: 4.8rem;
+    margin-top: 3.2rem ;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+
+
+/* main section 1*/
+.main__section--one{
+    width: 115.2rem;
+    height: 82.6rem;
+    margin: auto;
+}
+.main__section--one article{
+
+    width: 115.2rem;
+    margin: auto;
+  
+}
+
+
+/* main section 2*/
+.main__section--two{
+    width: 115.2rem;
+    height: 64.4rem ;
+    margin: auto;
+}
+.section2__ul--container{
+    width: 83.4rem;
+    height: 38.4rem;
+    margin: auto;  
+}
+.section2__ul--container li{
+    width: 34rem;
+     
+}
+.section2__div--main--title{
+    width: 115.2rem;
+    margin: auto;
+}
+
+
+
+/* main section 3*/
+
+.main__section--three{
+    width: 115.2rem;
+    min-width: 83.4rem;
+    height: 29.9rem;
+    margin: auto;
+}
+.main__section--three p{
+
+    top: 195rem;
+    width: 115.2rem;
+    margin: auto;
+ 
+}
+.main__section--three figure{
+    width: 115.2rem;
+    margin: auto;
+    
+}
+
+
+
+/* main section 4*/
+
+.Main__Section--four{
+
+    width: 115.2rem;
+    margin: auto;
+    
+}
+.div--container--price{
+    width: 115.2rem;
+    justify-content: center;
+}
+
+
+
+
+/* main section 5*/
+
+.Main__Section--five{
+    width: 115.2rem;
+    min-width: 83.4rem;
+    margin: auto;
+}
+
+
+
+/* footer */
+
+footer{
+    width: 115.2rem;
+    margin:auto;
+}
+.content-footer{
+
+    width: 115.2rem;
+    margin:auto;
+  
+}

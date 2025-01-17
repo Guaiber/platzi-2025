@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="./source/style/style.css">
     <link rel="stylesheet" href="./source/style/iphone8.css" media="screen and (min-width: 375px)">
     <link rel="stylesheet" href="./source/style/iphone11promax.css" media="screen and (min-width: 414px)">
+    <link rel="stylesheet" href="./source/style/ipadpro11.css" media="screen and (min-width: 834px)">
+    <link rel="stylesheet" href="./source/style/macbook-1.css" media="screen and (min-width: 1152px)">
+    <link rel="stylesheet" href="./source/style/imac-1.css" media="screen and (min-width: 1440px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -17,62 +20,117 @@
 <body>
     
 <header>
-    <img src="./source/assets/img/Group 19.svg" alt="">
+    
+    <picture>
+        <source srcset="./source/assets/img/Group-19-1152.png" alt="" media="screen and (min-width: 1152px)">
+        <img src="./source/assets/img/Group 19.svg" alt="">
+    </picture>
+    
+    
     <div class="header--title--container">
         <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
         <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
     </div>
-    <a href="">Conoce Nuestros Planes<i class="header__a--icon"></i></a>
+    <a href="#plans">Conoce Nuestros Planes<i class="header__a--icon"></i></a>
 </header>
 
 <main>
+
     <section class="main__section--one">
-    <picture></picture>
+    
+        <div class="container-div-picture-one">
+            <picture></picture>
+        </div>
+    
+
     <article class="section__article--paragraph">
         <p>Visibilizamos todas las tasas de cambio.</p>
         <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
     </article>
-    <div class="section__div--exchange">
-        <span>Monedas</span>
-        <div class="section__div--table">
-            <div>
-                <strong>Bitcoin</strong>
-            </div>
-            <div>
-                <small>$ 1.96<i class="table__i--arrow--down"></i></small>
-            </div>
+
+
+    <div class="exchange--container--div--scroll">
+
+        <div class="section__div--exchange">
+            <span>Monedas</span>
+            <i class="table__i--arrow--mdi"></i>
+            <div class="section__div--table">
                 <div>
-                <strong>Ethereum</strong>
+                    <strong>Bitcoin</strong>
+                </div>
+                <div>
+                    <small>$ 1.96<i class="table__i--arrow--down"></i></small>
+                </div>
+                    <div>
+                    <strong>Ethereum</strong>
+                </div>
+                <div>
+                    <small>$ 0.07<i class="table__i--arrow--up"></i></small>
+                </div>
+                <div>
+                    <strong>Ripple</strong>
+                </div>
+                <div>
+                    <small>$ 2.15<i class="table__i--arrow--down"></i></small>
+                </div>
+                <div>
+                    <strong>Stellar</strong>
+                </div>
+                <div>
+                    <small>$ 4.96<i class="table__i--arrow--down"></i></small>
+                </div>
             </div>
-            <div>
-                <small>$ 0.07<i class="table__i--arrow--up"></i></small>
-            </div>
-            <div>
-                <strong>Ripple</strong>
-            </div>
-            <div>
-                <small>$ 2.15<i class="table__i--arrow--down"></i></small>
-            </div>
-            <div>
-                <strong>Stellar</strong>
-            </div>
-            <div>
-                <small>$ 4.96<i class="table__i--arrow--down"></i></small>
+            <div class="value__div--container">
+                <p>Valores en <span>$ USD</span></p>
             </div>
         </div>
-        <i class="table__i--arrow--mdi"></i>
+
+        <div class="section__div--exchange">
+            <span>Monedas</span>
+            <i class="table__i--arrow--mdi"></i>
+            <div class="section__div--table">
+                <div>
+                    <strong>Bitcoin</strong>
+                </div>
+                <div>
+                    <small>$ 1.96<i class="table__i--arrow--down"></i></small>
+                </div>
+                    <div>
+                    <strong>Ethereum</strong>
+                </div>
+                <div>
+                    <small>$ 0.07<i class="table__i--arrow--up"></i></small>
+                </div>
+                <div>
+                    <strong>Ripple</strong>
+                </div>
+                <div>
+                    <small>$ 2.15<i class="table__i--arrow--down"></i></small>
+                </div>
+                <div>
+                    <strong>Stellar</strong>
+                </div>
+                <div>
+                    <small>$ 4.96<i class="table__i--arrow--down"></i></small>
+                </div>
+            </div>
+            <div class="value__div--container">
+                <p>Valores en<span>$ USD</span></p>
+            </div>
+        </div>
+
     </div>
 
-    <div class="value__div--container">
-        <p>Valores en <span>$ USD</span></p>
-    </div>
+    
+
+
 
     </section>
 
 
 
     <section class="main__section--two">
-
+        
         <div class="section2__div--main--title">
             <p>Te ayudamos a tomar la mejor decisión, siempre.</p>
             <p>Que la incertidumbre en materia de criptomonedas sea cosa del pasado.</p>
@@ -103,27 +161,62 @@
 
     </section>
 
+
+
+
+    
+
     <section class="main__section--three">
         <figure></figure>
         <p>Conócelo hoy.</p>
     </section>
 
 
+
+
+
+
+
     <section class="Main__Section--four">
+        
+        <p class="p--title-price">Escoge el plan que mejor se ajuste a ti.</p>
+        <p class="p--subtitle-price">Cualquier plan te da acceso completo a nuestra plataforma.</p>
 
         <div class="div--container--price">
-            <p class="p--title-price">Escoge el plan que mejor se ajuste a ti.</p>
-            <p class="p--subtitle-price">Cualquier plan te da acceso completo a nuestra plataforma.</p>
-            <a class="p-recomendado" href="">Recomendado</a>
+
             <div class="div--price">
+                <a class="p-recomendado" href="">Bueno</a>
+                <p class="p--title-price--per--year">Pago anual</p>
+                <p class="p--price"><sup>&#36</sup>5</p>
+                <p class="p--saving">*Plan basico para mantenerte informado.</p>
+                <button class="select--plan" href="">Escoger este<i></i></button>
+            </div>   
+        
+            <div class="div--price">
+                <a class="p-recomendado" href="">Recomendado</a>
                 <p class="p--title-price--per--year">Pago Anual</p>
                 <p class="p--price"><sup>&#36</sup>49</p>
                 <p class="p--saving">*Ahorras $129 comparado al plan mensual.</p>
-                <a class="select--plan" href="">Escoger este<i></i></a>
-            </div>   
-        </div>
+                <button class="select--plan" href="">Escoger este<i></i></button>
+            </div>  
+
+            <div class="div--price">
+                <a class="p-recomendado" href="">Excelente</a>
+                <p class="p--title-price--per--year">Acceso de por vida</p>
+                <p class="p--price"><sup>&#36</sup>99</p>
+                <p class="p--saving">*Ahorras $999+ comparado al plan anual.</p>
+                <button class="select--plan" href="">Escoger este<i></i></button>
+            </div> 
+
+        </div> 
+
 
     </section>
+
+
+
+
+
 
     <section class="Main__Section--five">
             <p class="p--frecuently--asked--title">¿Preguntas? Aquí estamos para ti.</p>
@@ -154,26 +247,20 @@
     <div class="content-footer">
 
         <ul>
-            <li><a class="a__content-footer" href="">Linkedin</a></li>
-            <li><a class="a__content-footer" href="">Crunchbase</a></li>
-            <li><a class="a__content-footer" href="">Hackernews</a></li>
+            <li class="li--content--footer"><a class="a__content-footer" href="">Linkedin</a></li>
+            <li class="li--content--footer"><a class="a__content-footer" href="">Crunchbase</a></li>
+            <li class="li--content--footer"><a class="a__content-footer" href="">Hackernews</a></li>
         </ul>
 
         <picture>
+            <source srcset="./source/assets/img/Group18-834.png" alt="" media="screen and (min-width: 834px)">
             <source srcset="./source/assets/img/Group-18-75x50.png" alt="" media="screen and (min-width: 375px)">
             <img src="./source/assets/img/Group 18.svg" alt="">
         </picture>
+
     </div>
 
-
-    
-
-
-
 </footer>
-
-
-
-
 </body>
+
 </html>
