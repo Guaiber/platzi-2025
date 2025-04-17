@@ -1,0 +1,130 @@
+/* header*/
+.header-container{
+    max-width: 1200px;
+    width: 1200px;
+    height: 69.5rem;
+    }
+    .title{
+    font-size: 6rem;
+    color: #333;
+    margin: 0rem 0rem;
+    margin-top: 10rem;
+    }
+    .text{
+    width: 48rem;
+    font-size: 2.5rem;
+    margin-top: 46px;
+    margin-bottom: 24px;
+    }
+    .info-button{
+    width: 120px;
+    height: 42px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    }
+    .item2{
+    width: 720px;
+    height: 695px;
+    }
+    .header-img{
+    width: 720px;
+    height: 695px;
+    }
+
+
+    /* main*/
+    .service-title{
+    height: 20.8rem;
+    font-size: 4rem;
+    }
+
+    .service-container{
+    grid-template-columns: repeat(4, 261px);
+    grid-template-rows: repeat(2, 291px);
+    gap: 1rem;
+    width: 1200px;
+    height: 63rem;
+    margin: auto;
+    gap: 50px;
+    grid-template-areas: 
+    "p1 p2 p3 p4"
+    "p5 p6 p7 p8"
+    ;
+    } 
+    .service-video{
+    width:576px;
+    height:626px;
+    }
+    .service-picture-container{
+    width: 261px;
+    height: 291px;
+    }
+    .service-item1{
+    grid-area: p1/p1 / p6/p6;
+    }
+    .service-item2{
+    grid-area: p3;
+    }
+    .service-item3{
+    grid-area: p4;
+    }
+    .service-item4{
+    grid-area: p7;
+    }
+    .service-item5{
+    grid-area: p8;
+    }
+    
+
+
+
+    /* footer*/
+    .menu-title{
+    width: 1200px;
+    height: 20.4rem;
+    font-size: 4rem;
+    }
+    .menu-container{
+    display: grid;
+    grid-template-columns: repeat(5, 180px);
+    grid-template-rows: 185px;
+    grid-template-areas: 
+    "p1 p2 p3 p4 p5";
+    gap: 6.5rem;
+    width: 1200px;
+    height: 22.5rem;
+    margin-bottom: 5rem;
+    }
+        
+    .menu-item1{
+    width: 220px;
+    height: 225Px;
+    border-top-left-radius: 3rem;
+    }
+    .menu-item2{
+    width: 220px;
+    height: 225px;
+    border-top-left-radius: 3rem;
+    }
+    .menu-item3{
+    width: 220px;
+    height: 225px;
+    border-top-left-radius: 3rem;
+    }
+    .menu-item4{
+    width: 220px;
+    height: 225px;
+    border-top-left-radius: 3rem;
+    }
+    .menu-item5{
+    width: 220px;
+    height: 225px;
+    border-top-left-radius: 3rem;
+    }    
+    .img-container{
+    object-fit: contain;
+    width: 165px;
+    height:165px;
+    }

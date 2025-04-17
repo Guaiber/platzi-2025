@@ -3,9 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./source/style/style.css">
+    <link rel="stylesheet" href="./source/style/iphone11promax.css" media="screen and (min-width: 414px)">
+    <link rel="stylesheet" href="./source/style/ipadpro11.css" media="screen and (min-width: 1200px)">
+    <title>css-grid</title>
 </head>
 <body>
-    prueba
+    
+    <header>
+        <section class="header-container">
+            <div class="item1">
+                <h1 class="title">Check the<br>best food</h1>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, nostrum esse molestias inventore ducimus magni earum cupiditate.</p>
+                <button class="info-button">Book a table</button>
+            </div>
+            <div class="item2">
+                <picture>
+                    <source srcset="./source/assets/img/hero.png" alt="" media="screen and (min-width: 1200px)">
+                    <source srcset="./source/assets/img/hero235px.png" alt="" media="screen and (min-width: 414px)">
+                    <img class="header-img" src="./source/assets/img/hero320px.png" alt="Dish of pasta with neapolitan sauce and vegetables">
+                </picture>
+            </div>
+        </section>
+    </header>
+
+
+
+    <main>
+        <h2 class="service-title">Our services</h2>
+        <section class="service-container">
+            <div class="service-item1">
+                <picture class="service-picture-container">
+                    <source srcset="./source/assets/img/video.png" alt="" media="screen and (min-width: 1200px)">
+                    <source srcset="./source/assets/img/video270px.png" alt="" media="screen and (min-width: 414px)">
+                    <img class="service-video" src="./source/assets/img/video220px.png" alt="video of pasta dishes being served">
+                </picture>
+            </div>
+
+            <div class="service-item2">
+                <picture>
+                    <source srcset="./source/assets/img/dish1.png" alt="" media="screen and (min-width: 1200px)">
+                    <source srcset="./source/assets/img/dish1125px.png" alt="" media="screen and (min-width: 414px)">
+                    <img class="service-picture-container" src="./source/assets/img/dish1100x100px.png" alt="bowl of vegetables with rice and avocado">
+                </picture>
+            </div>
+
+            <div class="service-item3">
+                <picture>
+                    <source srcset="./source/assets/img/dish2.png" alt="" media="screen and (min-width: 1200px)">
+                    <source srcset="./source/assets/img/dish2125px.png" alt="" media="screen and (min-width: 414px)">
+                    <img class="service-picture-container" src="./source/assets/img/dish2100x100px.png" alt="Avocado and egg toast">
+                </picture>
+            </div>
+
+            <div class="service-item4">
+                <picture>
+                    <source srcset="./source/assets/img/dish3.png" alt="" media="screen and (min-width: 1200px)">
+                    <source srcset="./source/assets/img/dish3125px.png" alt="" media="screen and (min-width: 414px)">
+                    <img class="service-picture-container" src="./source/assets/img/dish3100x100px.png" alt="asparagus with tomato and butter">
+                </picture>
+            </div>
+
+            <div class="service-item5">
+                <picture>
+                    <source srcset="./source/assets/img/dish4.png" alt="" media="screen and (min-width: 1200px)">
+                    <source srcset="./source/assets/img/dish4125px.png" alt="" media="screen and (min-width: 414px)">
+                    <img class="service-picture-container" src="./source/assets/img/dish4100x100px.png" alt="eggs and guacamole toast">
+                </picture>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2 class="menu-title">Home menu</h2>
+        <section class="menu-container">
+            <div class="menu-item1">
+                <picture class="img-container">
+                    <source srcset="./source/assets/img/plate1165px.png" alt="" media="screen and (min-width: 1200px)">
+                    <source srcset="./source/assets/img/plate175px.png" alt="" media="screen and (min-width: 375px)">
+                    <img  src="./source/assets/img/plate157x57px.png" alt="eggs and guacamole toast">
+                </picture>
+            </div>
+
+            <div class="menu-item2">
+                <picture class="img-container">
+                    <source srcset="./source/assets/img/plate2165px.png" alt="" media="screen and (min-width: 1200px)">
+                    <source srcset="./source/assets/img/plate275px.png" alt="" media="screen and (min-width: 375px)">
+                    <img src="./source/assets/img/plate254x57px.png" alt="eggs and guacamole toast">
+                </picture>
+            </div>
+
+            <div class="menu-item3">
+                <picture class="img-container">
+                    <source srcset="./source/assets/img/plate3165px.png" alt="" media="screen and (min-width: 1200px)">
+                    <source srcset="./source/assets/img/plate375px.png" alt="" media="screen and (min-width: 375px)">
+                    <img src="./source/assets/img/plate357x57px.png" alt="eggs and guacamole toast">
+                </picture>
+            </div>
+
+            <div class="menu-item4">
+                <picture class="img-container">
+                    <source srcset="./source/assets/img/plate4165px.png" alt="" media="screen and (min-width: 1200px)">
+                    <source srcset="./source/assets/img/plate475px.png" alt="" media="screen and (min-width: 375px)">
+                    <img src="./source/assets/img/plate457x57px.png" alt="eggs and guacamole toast">
+                </picture>
+            </div>
+
+            <div class="menu-item5">
+                <picture class="img-container">
+                    <source srcset="./source/assets/img/plate5165px.png" alt="" media="screen and (min-width: 1200px)">
+                    <source srcset="./source/assets/img/plate575px.png" alt="" media="screen and (min-width: 375px)">
+                    <img src="./source/assets/img/plate557x57px.png" alt="eggs and guacamole toast">
+                </picture>
+            </div>
+            
+        </section>
+    </footer>
+
 </body>
 </html>

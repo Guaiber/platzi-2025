@@ -1,0 +1,84 @@
+
+
+/* header*/
+.header-container{
+min-width: 320px;
+width: 414px;
+height: 24rem;
+}
+.title{
+font-size: 3rem;
+}
+.text{
+font-size: 1.5rem;
+}
+
+/* main*/
+.service-title{
+height: 9rem;
+font-size: 1.8rem;
+}
+
+.service-container{
+grid-template-columns: repeat(4, 125px);
+grid-template-rows: repeat(2, 135px);
+gap: 1rem;
+width: 414px;
+height: 44.5rem;
+} 
+.service-video{
+width:260px;
+height:270px;
+}
+.service-picture-container{
+width: 125px;
+height: 125px;
+}
+
+/* footer*/
+.menu-title{
+min-width: 320px;
+width: 414px;
+height: 8.5rem;
+font-weight: 500;
+font-size: 1.8rem;
+}
+.menu-container{
+display: grid;
+grid-template-columns: repeat(4, 97px);
+grid-template-rows: repeat(2, 97px);
+gap: 0.8rem;
+width: 414px;
+height: 20.5rem;
+}
+    
+.menu-item1{
+width: 97px;
+height: 97px;
+border-top-left-radius: 1.5rem;
+}
+.menu-item2{
+width: 97px;
+height: 97px;
+border-top-left-radius: 1.5rem;
+}
+.menu-item3{
+width: 97px;
+height: 97px;
+border-top-left-radius: 1.5rem;
+}
+.menu-item4{
+width: 97px;
+height: 97px;
+border-top-left-radius: 1.5rem;
+}
+.menu-item5{
+width: 97px;
+height: 97px;
+border-top-left-radius: 1.5rem;
+}
+    
+.img-container{
+width: 75px;
+height: 75px;
+}
